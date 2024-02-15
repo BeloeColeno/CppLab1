@@ -5,14 +5,13 @@ using namespace std;
 void grade(void)
 {
 	int i, k, num;
-	//setlocale(0, "");
 	cout << "Введите значение основания: ";
 	cin >> num;
 	int power(int, int);
 	for (i = 0; i < 10; i++)
 	{
 		k=power(num, i);
-		cout<< "Число: "<< num << ", степень: " << i << ", итог: " << k << endl;
+		cout<< "Число: "<< num << "\tстепень: " << i << "\tитог: " << k << endl;
 	}
 }
 

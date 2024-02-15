@@ -16,21 +16,24 @@ void main(void)
 		switch (choice)
 		{
 		case 1: grade(); 
-			cout << "\n"; 
+			cout << "\n================================================\n" << endl;
 			break;
 		case 2: pointer();
-			cout << "\n";
+			cout << "\n================================================\n" << endl;
 			break;
 		case 3: tSwitcher();
-			cout << "\n";
+			cout << "\n================================================\n" << endl;
 			break;
 		case 0: {
-			cout << "Выход из программы." << "\n" << endl;
+			cout << "\nВыход из программы.\n" << endl;
+			cout << "\n================================================\n" << endl;
 			cheker = false;
 				break;
 		}
 		default:
-			cout << "Не поддерживаемый ввод." << "\n" << endl; break;
+			cout << "\nНе поддерживаемый ввод.\n" << endl;
+			cout << "\n================================================\n" << endl; 
+			break;
 		}
 	}
 }

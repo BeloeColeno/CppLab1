@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Grades.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Pointers.cpp" />
+    <ClCompile Include="StdioTest.cpp" />
     <ClCompile Include="TypeSwitcher.cpp" />
   </ItemGroup>
   <ItemGroup>
